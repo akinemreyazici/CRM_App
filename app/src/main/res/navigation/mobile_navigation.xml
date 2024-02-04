@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/nav_employee"
+        android:name="com.works.crm_project.view.employee.EmployeeListFragment"
+        android:label="@string/menu_employee"
+        tools:layout="@layout/fragment_employee_list">
+        <action
+            android:id="@+id/action_nav_home_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:launchSingleTop="false"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_nav_home_to_employeeAddFragment"
+            app:destination="@id/employeeAddFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_firm"
+        android:name="com.works.crm_project.view.firm.FirmFragment"
+        android:label="@string/menu_firm"
+        tools:layout="@layout/fragment_firm_list" >
+        <action
+            android:id="@+id/action_nav_firm_to_firmAddFragment"
+            app:destination="@id/firmAddFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_nav_firm_to_firmDetailFragment"
+            app:destination="@id/firmDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/employeeDetailFragment"
+        android:name="com.works.crm_project.view.employee.EmployeeDetailFragment"
+        tools:layout="@layout/fragment_employee_detail">
+        <argument
+            android:name="EmployeeId"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.works.crm_project.view.LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_nav_home"
+            app:destination="@id/nav_employee"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/employeeAddFragment"
+        android:name="com.works.crm_project.view.employee.EmployeeAddFragment" />
+    <fragment
+        android:id="@+id/firmAddFragment"
+        android:name="com.works.crm_project.view.firm.FirmAddFragment"
+        tools:layout="@layout/fragment_firm_add" />
+    <fragment
+        android:id="@+id/firmDetailFragment"
+        android:name="com.works.crm_project.view.firm.FirmDetailFragment"
+        tools:layout="@layout/fragment_firm_detail">
+        <argument
+            android:name="FirmId"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/leadAddFragment"
+        android:name="com.works.crm_project.view.lead.LeadAddFragment"
+        tools:layout="@layout/fragment_lead_add" />
+    <fragment
+        android:id="@+id/nav_lead"
+        android:name="com.works.crm_project.view.lead.LeadFragment"
+        android:label="@string/menu_lead"
+        tools:layout="@layout/fragment_lead">
+        <action
+            android:id="@+id/action_leadFragment_to_leadAddFragment"
+            app:destination="@id/leadAddFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_nav_lead_to_leadDetailFragment"
+            app:destination="@id/leadDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/leadDetailFragment"
+        android:name="com.works.crm_project.view.lead.LeadDetailFragment">
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_expense"
+        android:name="com.works.crm_project.view.expense.ExpenseFragment"
+        android:label="@string/menu_expense"
+        tools:layout="@layout/fragment_expense">
+
+        <action
+            android:id="@+id/action_nav_expense_to_nav_expenseAdd"
+            app:destination="@id/nav_expenseAdd" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_expenseAdd"
+        android:name="com.works.crm_project.view.expense.ExpenseAddFragment"
+        android:label="Masraf Ekle"
+        tools:layout="@layout/fragment_expense_add">
+        <action
+            android:id="@+id/action_nav_expenseAdd_to_nav_expense"
+            app:destination="@id/nav_expense" />
+    </fragment>
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_employee"
+            android:title="@string/menu_employee" />
+        <item
+            android:id="@+id/nav_firm"
+            android:title="@string/menu_firm" />
+        <item
+            android:id="@+id/nav_lead"
+            android:title="@string/menu_lead" />
+        <item
+            android:id="@+id/nav_expense"
+            android:title="@string/menu_expense" />
+        <item
+            android:id="@+id/nav_expenseAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/menu_expenseAdd" />
+    </group>
+</menu>

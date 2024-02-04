@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/r_LeadCustomerNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/archivo_black"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Müşteri İsmi"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/r_LeadLeadTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="16dp"
+            android:paddingBottom="4dp"
+            android:text="Tür" />
+
+        <TextView
+            android:id="@+id/r_LeadPrecedenceTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="16dp"
+            android:paddingBottom="4dp"
+            android:text="Öncelik" />
+
+        <TextView
+            android:id="@+id/r_LeadLeadStatusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingRight="16dp"
+            android:paddingBottom="4dp"
+            android:text="Durumu"
+            android:textAlignment="viewEnd" />
+
+        <TextView
+            android:id="@+id/r_LeadAmountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="4dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:text="Tutar "
+            android:textAlignment="viewEnd" />
+
+    </LinearLayout>
+</LinearLayout>

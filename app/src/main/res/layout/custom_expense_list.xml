@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/r_ExpenseCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Masraf türü"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/r_ExpenseReceiptDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="16dp"
+            android:text="Fatura Tarihi"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/r_ExpenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:text="Tutar"
+            android:textAlignment="viewEnd" />
+    </LinearLayout>
+</LinearLayout>
