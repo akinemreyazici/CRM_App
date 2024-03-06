@@ -1,4 +1,4 @@
-# CRM_App - Quick Release
+# CRM_App - QuickRes
 
 ## Table of Contents
 |   |   |
