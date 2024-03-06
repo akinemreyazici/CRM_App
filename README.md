@@ -1,4 +1,4 @@
-# CRM_App - QuickRes
+# CRM_App - QUICKRES
 
 ## Table of Contents
 |   |   |
