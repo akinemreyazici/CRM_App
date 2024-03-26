@@ -42,39 +42,39 @@ CRM_App is a mobile Customer Relationship Management (CRM) application. This app
 
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="300" alt="crm1" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/a48a9d49-9415-4772-bbcd-6545e4e359c8">
-    <img width="300" alt="proje_navigation" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/2177da7e-cb95-41f7-9111-9be73f53e167">
+    <img width="250" alt="crm1" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/a48a9d49-9415-4772-bbcd-6545e4e359c8">
+    <img width="250" alt="proje_navigation" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/2177da7e-cb95-41f7-9111-9be73f53e167">
 </div>
 
 ## Employees
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="300" alt="proje_employeList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/9ec60eb6-9372-4fb4-b6d3-190d028c7b54">
-    <img width="300" alt="proje_employeeAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/19e7cda2-965c-481e-9839-24a01ccf1ce8">
-    <img width="300" alt="employee_Detail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/97c2096f-da58-4d8c-81c6-b11ae8f7b75b">
+    <img width="250" alt="proje_employeList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/9ec60eb6-9372-4fb4-b6d3-190d028c7b54">
+    <img width="250" alt="proje_employeeAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/19e7cda2-965c-481e-9839-24a01ccf1ce8">
+    <img width="250" alt="employee_Detail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/97c2096f-da58-4d8c-81c6-b11ae8f7b75b">
 </div>
 
 ## Firms
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="300" alt="proje_firmaList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/a24de947-08e1-49f5-83e1-e1366e670e25">
-    <img width="300" alt="proje_firmaAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/d1841370-9331-4511-a67c-40d874c2db14">
-    <img width="300" alt="proje_firmDetail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/486e342a-9b16-4aae-a689-a4dcb426af44">
+    <img width="250" alt="proje_firmaList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/a24de947-08e1-49f5-83e1-e1366e670e25">
+    <img width="250" alt="proje_firmaAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/d1841370-9331-4511-a67c-40d874c2db14">
+    <img width="250" alt="proje_firmDetail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/486e342a-9b16-4aae-a689-a4dcb426af44">
 </div>
 
 ## Leads
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="300" alt="proje_leadList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/64e39152-9119-4e6c-98af-f64e46bd1e3c">
-    <img width="300" alt="proje_leadAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/74ae8af6-e253-4e63-90be-de9344df035b">
-    <img width="300" alt="proje_leadDetail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/1dbe4b52-32d5-449b-bea9-02ebe2c1f7a0">
+    <img width="250" alt="proje_leadList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/64e39152-9119-4e6c-98af-f64e46bd1e3c">
+    <img width="250" alt="proje_leadAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/74ae8af6-e253-4e63-90be-de9344df035b">
+    <img width="250" alt="proje_leadDetail" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/1dbe4b52-32d5-449b-bea9-02ebe2c1f7a0">
 </div>
 
 ## Expenses
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img width="300" alt="proje_expenseAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/caf24cef-2049-4cae-97b3-b98b0df4ed13">
-    <img width="300" alt="proje_expenseList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/7938cc4a-e7f0-4bb0-90bc-c6ada15efd2a">
+    <img width="250" alt="proje_expenseAdd" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/caf24cef-2049-4cae-97b3-b98b0df4ed13">
+    <img width="250" alt="proje_expenseList" src="https://github.com/akinemreyazici/CRM_App/assets/116732291/7938cc4a-e7f0-4bb0-90bc-c6ada15efd2a">
 </div>
 
 ## Dependencies
